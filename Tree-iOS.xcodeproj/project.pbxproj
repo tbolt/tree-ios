@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1ECA5694C93E48B7D3FF7348 /* Pods_Tree_iOS_Tree_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E9534C943B63992F6FDAA1 /* Pods_Tree_iOS_Tree_iOSUITests.framework */; };
 		53C4F6B36F5F0FDA32D12A53 /* Pods_Tree_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4502DCFED1E0E400923855D /* Pods_Tree_iOS.framework */; };
+		BF0529BA239ED5BF005BBA05 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0529B9239ED5BF005BBA05 /* ThirdViewController.swift */; };
 		BFB52700239AF015009645D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB526FF239AF015009645D1 /* AppDelegate.swift */; };
 		BFB52702239AF015009645D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB52701239AF015009645D1 /* SceneDelegate.swift */; };
 		BFB52704239AF015009645D1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB52703239AF015009645D1 /* FirstViewController.swift */; };
@@ -44,6 +45,7 @@
 		7AAB0427F5BD11B84E8C6D08 /* Pods-Tree-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tree-iOS.release.xcconfig"; path = "Target Support Files/Pods-Tree-iOS/Pods-Tree-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		8CED93C0B64B96118235F9D9 /* Pods-Tree-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tree-iOSTests.release.xcconfig"; path = "Target Support Files/Pods-Tree-iOSTests/Pods-Tree-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		AEFFA82AE1ECDC2C9D145CCF /* Pods-Tree-iOS-Tree-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tree-iOS-Tree-iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tree-iOS-Tree-iOSUITests/Pods-Tree-iOS-Tree-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF0529B9239ED5BF005BBA05 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		BFB526FC239AF015009645D1 /* Tree-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tree-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB526FF239AF015009645D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFB52701239AF015009645D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,7 +105,6 @@
 				C9182D39C83CCD667D9D734F /* Pods-Tree-iOSTests.debug.xcconfig */,
 				8CED93C0B64B96118235F9D9 /* Pods-Tree-iOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -146,6 +147,7 @@
 				BFB52701239AF015009645D1 /* SceneDelegate.swift */,
 				BFB52703239AF015009645D1 /* FirstViewController.swift */,
 				BFB52705239AF015009645D1 /* SecondViewController.swift */,
+				BF0529B9239ED5BF005BBA05 /* ThirdViewController.swift */,
 				BFB52707239AF015009645D1 /* Main.storyboard */,
 				BFB5270A239AF016009645D1 /* Assets.xcassets */,
 				BFB5270C239AF016009645D1 /* LaunchScreen.storyboard */,
@@ -240,7 +242,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
-				LastUpgradeCheck = 1120;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Ty Bolchoz";
 				TargetAttributes = {
 					BFB526FB239AF015009645D1 = {
@@ -413,6 +415,7 @@
 			files = (
 				BFB52706239AF015009645D1 /* SecondViewController.swift in Sources */,
 				BFB52704239AF015009645D1 /* FirstViewController.swift in Sources */,
+				BF0529BA239ED5BF005BBA05 /* ThirdViewController.swift in Sources */,
 				BFB52700239AF015009645D1 /* AppDelegate.swift in Sources */,
 				BFB52702239AF015009645D1 /* SceneDelegate.swift in Sources */,
 			);
@@ -495,6 +498,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -555,6 +559,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -589,6 +594,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQMK3TG595;
 				INFOPLIST_FILE = "Tree-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -607,6 +613,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQMK3TG595;
 				INFOPLIST_FILE = "Tree-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -667,7 +674,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AEFFA82AE1ECDC2C9D145CCF /* Pods-Tree-iOS-Tree-iOSUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Tree-iOSUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -687,7 +694,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FB29B704293F43E53338D632 /* Pods-Tree-iOS-Tree-iOSUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Tree-iOSUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
